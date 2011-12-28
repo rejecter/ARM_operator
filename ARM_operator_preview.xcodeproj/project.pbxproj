@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F438BCFC14AB518000C98F5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BCFB14AB518000C98F5F /* UIKit.framework */; };
+		F438BCFE14AB518000C98F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BCFD14AB518000C98F5F /* Foundation.framework */; };
+		F438BD0014AB518000C98F5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BCFF14AB518000C98F5F /* CoreGraphics.framework */; };
+		F438BD0214AB518000C98F5F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BD0114AB518000C98F5F /* CoreData.framework */; };
+		F438BD0814AB518000C98F5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F438BD0614AB518000C98F5F /* InfoPlist.strings */; };
+		F438BD0A14AB518000C98F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BD0914AB518000C98F5F /* main.m */; };
+		F438BD0E14AB518000C98F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BD0D14AB518000C98F5F /* AppDelegate.m */; };
+		F438BD1114AB518000C98F5F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438BD0F14AB518000C98F5F /* MainStoryboard_iPhone.storyboard */; };
+		F438BD1414AB518000C98F5F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438BD1214AB518000C98F5F /* MainStoryboard_iPad.storyboard */; };
+		F438BD1714AB518000C98F5F /* ARM_operator_preview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F438BD1514AB518000C98F5F /* ARM_operator_preview.xcdatamodeld */; };
+		F438BD1A14AB518000C98F5F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BD1914AB518000C98F5F /* MasterViewController.m */; };
+		F438BD1D14AB518000C98F5F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BD1C14AB518000C98F5F /* DetailViewController.m */; };
+		F438BD2514AB518100C98F5F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BD2414AB518100C98F5F /* SenTestingKit.framework */; };
+		F438BD2614AB518100C98F5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BCFB14AB518000C98F5F /* UIKit.framework */; };
+		F438BD2714AB518100C98F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BCFD14AB518000C98F5F /* Foundation.framework */; };
+		F438BD2814AB518100C98F5F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438BD0114AB518000C98F5F /* CoreData.framework */; };
+		F438BD3014AB518100C98F5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F438BD2E14AB518100C98F5F /* InfoPlist.strings */; };
+		F438BD3314AB518100C98F5F /* ARM_operator_previewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BD3214AB518100C98F5F /* ARM_operator_previewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F438BD2914AB518100C98F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F438BCEE14AB518000C98F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F438BCF614AB518000C98F5F;
+			remoteInfo = ARM_operator_preview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F438BCF714AB518000C98F5F /* ARM_operator_preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARM_operator_preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F438BCFB14AB518000C98F5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F438BCFD14AB518000C98F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F438BCFF14AB518000C98F5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F438BD0114AB518000C98F5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F438BD0514AB518000C98F5F /* ARM_operator_preview-Info.plist */ = {isa = PBXFileReference; path = "ARM_operator_preview-Info.plist"; sourceTree = "<group>"; };
+		F438BD0714AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F438BD0914AB518000C98F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F438BD0B14AB518000C98F5F /* ARM_operator_preview-Prefix.pch */ = {isa = PBXFileReference; path = "ARM_operator_preview-Prefix.pch"; sourceTree = "<group>"; };
+		F438BD0C14AB518000C98F5F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F438BD0D14AB518000C98F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F438BD1014AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F438BD1314AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F438BD1614AB518000C98F5F /* ARM_operator_preview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARM_operator_preview.xcdatamodel; sourceTree = "<group>"; };
+		F438BD1814AB518000C98F5F /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		F438BD1914AB518000C98F5F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F438BD1B14AB518000C98F5F /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		F438BD1C14AB518000C98F5F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F438BD2314AB518100C98F5F /* ARM_operator_previewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARM_operator_previewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F438BD2414AB518100C98F5F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F438BD2D14AB518100C98F5F /* ARM_operator_previewTests-Info.plist */ = {isa = PBXFileReference; path = "ARM_operator_previewTests-Info.plist"; sourceTree = "<group>"; };
+		F438BD2F14AB518100C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F438BD3114AB518100C98F5F /* ARM_operator_previewTests.h */ = {isa = PBXFileReference; path = ARM_operator_previewTests.h; sourceTree = "<group>"; };
+		F438BD3214AB518100C98F5F /* ARM_operator_previewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARM_operator_previewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F438BCF414AB518000C98F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BCFC14AB518000C98F5F /* UIKit.framework in Frameworks */,
+				F438BCFE14AB518000C98F5F /* Foundation.framework in Frameworks */,
+				F438BD0014AB518000C98F5F /* CoreGraphics.framework in Frameworks */,
+				F438BD0214AB518000C98F5F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F438BD1F14AB518100C98F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BD2514AB518100C98F5F /* SenTestingKit.framework in Frameworks */,
+				F438BD2614AB518100C98F5F /* UIKit.framework in Frameworks */,
+				F438BD2714AB518100C98F5F /* Foundation.framework in Frameworks */,
+				F438BD2814AB518100C98F5F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F438BCEC14AB518000C98F5F = {
+			isa = PBXGroup;
+			children = (
+				F438BD0314AB518000C98F5F /* ARM_operator_preview */,
+				F438BD2B14AB518100C98F5F /* ARM_operator_previewTests */,
+				F438BCFA14AB518000C98F5F /* Frameworks */,
+				F438BCF814AB518000C98F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F438BCF814AB518000C98F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F438BCF714AB518000C98F5F /* ARM_operator_preview.app */,
+				F438BD2314AB518100C98F5F /* ARM_operator_previewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F438BCFA14AB518000C98F5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F438BCFB14AB518000C98F5F /* UIKit.framework */,
+				F438BCFD14AB518000C98F5F /* Foundation.framework */,
+				F438BCFF14AB518000C98F5F /* CoreGraphics.framework */,
+				F438BD0114AB518000C98F5F /* CoreData.framework */,
+				F438BD2414AB518100C98F5F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F438BD0314AB518000C98F5F /* ARM_operator_preview */ = {
+			isa = PBXGroup;
+			children = (
+				F438BD0C14AB518000C98F5F /* AppDelegate.h */,
+				F438BD0D14AB518000C98F5F /* AppDelegate.m */,
+				F438BD0F14AB518000C98F5F /* MainStoryboard_iPhone.storyboard */,
+				F438BD1214AB518000C98F5F /* MainStoryboard_iPad.storyboard */,
+				F438BD1814AB518000C98F5F /* MasterViewController.h */,
+				F438BD1914AB518000C98F5F /* MasterViewController.m */,
+				F438BD1B14AB518000C98F5F /* DetailViewController.h */,
+				F438BD1C14AB518000C98F5F /* DetailViewController.m */,
+				F438BD1514AB518000C98F5F /* ARM_operator_preview.xcdatamodeld */,
+				F438BD0414AB518000C98F5F /* Supporting Files */,
+			);
+			path = ARM_operator_preview;
+			sourceTree = "<group>";
+		};
+		F438BD0414AB518000C98F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F438BD0514AB518000C98F5F /* ARM_operator_preview-Info.plist */,
+				F438BD0614AB518000C98F5F /* InfoPlist.strings */,
+				F438BD0914AB518000C98F5F /* main.m */,
+				F438BD0B14AB518000C98F5F /* ARM_operator_preview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F438BD2B14AB518100C98F5F /* ARM_operator_previewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F438BD3114AB518100C98F5F /* ARM_operator_previewTests.h */,
+				F438BD3214AB518100C98F5F /* ARM_operator_previewTests.m */,
+				F438BD2C14AB518100C98F5F /* Supporting Files */,
+			);
+			path = ARM_operator_previewTests;
+			sourceTree = "<group>";
+		};
+		F438BD2C14AB518100C98F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F438BD2D14AB518100C98F5F /* ARM_operator_previewTests-Info.plist */,
+				F438BD2E14AB518100C98F5F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F438BCF614AB518000C98F5F /* ARM_operator_preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F438BD3614AB518100C98F5F /* Build configuration list for PBXNativeTarget "ARM_operator_preview" */;
+			buildPhases = (
+				F438BCF314AB518000C98F5F /* Sources */,
+				F438BCF414AB518000C98F5F /* Frameworks */,
+				F438BCF514AB518000C98F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARM_operator_preview;
+			productName = ARM_operator_preview;
+			productReference = F438BCF714AB518000C98F5F /* ARM_operator_preview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F438BD2214AB518100C98F5F /* ARM_operator_previewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F438BD3914AB518100C98F5F /* Build configuration list for PBXNativeTarget "ARM_operator_previewTests" */;
+			buildPhases = (
+				F438BD1E14AB518100C98F5F /* Sources */,
+				F438BD1F14AB518100C98F5F /* Frameworks */,
+				F438BD2014AB518100C98F5F /* Resources */,
+				F438BD2114AB518100C98F5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F438BD2A14AB518100C98F5F /* PBXTargetDependency */,
+			);
+			name = ARM_operator_previewTests;
+			productName = ARM_operator_previewTests;
+			productReference = F438BD2314AB518100C98F5F /* ARM_operator_previewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F438BCEE14AB518000C98F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F438BCF114AB518000C98F5F /* Build configuration list for PBXProject "ARM_operator_preview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F438BCEC14AB518000C98F5F;
+			productRefGroup = F438BCF814AB518000C98F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F438BCF614AB518000C98F5F /* ARM_operator_preview */,
+				F438BD2214AB518100C98F5F /* ARM_operator_previewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F438BCF514AB518000C98F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BD0814AB518000C98F5F /* InfoPlist.strings in Resources */,
+				F438BD1114AB518000C98F5F /* MainStoryboard_iPhone.storyboard in Resources */,
+				F438BD1414AB518000C98F5F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F438BD2014AB518100C98F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BD3014AB518100C98F5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F438BD2114AB518100C98F5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F438BCF314AB518000C98F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BD0A14AB518000C98F5F /* main.m in Sources */,
+				F438BD0E14AB518000C98F5F /* AppDelegate.m in Sources */,
+				F438BD1714AB518000C98F5F /* ARM_operator_preview.xcdatamodeld in Sources */,
+				F438BD1A14AB518000C98F5F /* MasterViewController.m in Sources */,
+				F438BD1D14AB518000C98F5F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F438BD1E14AB518100C98F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F438BD3314AB518100C98F5F /* ARM_operator_previewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F438BD2A14AB518100C98F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F438BCF614AB518000C98F5F /* ARM_operator_preview */;
+			targetProxy = F438BD2914AB518100C98F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F438BD0614AB518000C98F5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438BD0714AB518000C98F5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F438BD0F14AB518000C98F5F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438BD1014AB518000C98F5F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F438BD1214AB518000C98F5F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438BD1314AB518000C98F5F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F438BD2E14AB518100C98F5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F438BD2F14AB518100C98F5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F438BD3414AB518100C98F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F438BD3514AB518100C98F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F438BD3714AB518100C98F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARM_operator_preview/ARM_operator_preview-Prefix.pch";
+				INFOPLIST_FILE = "ARM_operator_preview/ARM_operator_preview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F438BD3814AB518100C98F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARM_operator_preview/ARM_operator_preview-Prefix.pch";
+				INFOPLIST_FILE = "ARM_operator_preview/ARM_operator_preview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F438BD3A14AB518100C98F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARM_operator_preview.app/ARM_operator_preview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARM_operator_preview/ARM_operator_preview-Prefix.pch";
+				INFOPLIST_FILE = "ARM_operator_previewTests/ARM_operator_previewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F438BD3B14AB518100C98F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARM_operator_preview.app/ARM_operator_preview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARM_operator_preview/ARM_operator_preview-Prefix.pch";
+				INFOPLIST_FILE = "ARM_operator_previewTests/ARM_operator_previewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F438BCF114AB518000C98F5F /* Build configuration list for PBXProject "ARM_operator_preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F438BD3414AB518100C98F5F /* Debug */,
+				F438BD3514AB518100C98F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F438BD3614AB518100C98F5F /* Build configuration list for PBXNativeTarget "ARM_operator_preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F438BD3714AB518100C98F5F /* Debug */,
+				F438BD3814AB518100C98F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F438BD3914AB518100C98F5F /* Build configuration list for PBXNativeTarget "ARM_operator_previewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F438BD3A14AB518100C98F5F /* Debug */,
+				F438BD3B14AB518100C98F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F438BD1514AB518000C98F5F /* ARM_operator_preview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F438BD1614AB518000C98F5F /* ARM_operator_preview.xcdatamodel */,
+			);
+			currentVersion = F438BD1614AB518000C98F5F /* ARM_operator_preview.xcdatamodel */;
+			path = ARM_operator_preview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F438BCEE14AB518000C98F5F /* Project object */;
+}
