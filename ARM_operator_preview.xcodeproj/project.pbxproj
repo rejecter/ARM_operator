@@ -43,24 +43,24 @@
 		F438BCFD14AB518000C98F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F438BCFF14AB518000C98F5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F438BD0114AB518000C98F5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F438BD0514AB518000C98F5F /* ARM_operator_preview-Info.plist */ = {isa = PBXFileReference; path = "ARM_operator_preview-Info.plist"; sourceTree = "<group>"; };
+		F438BD0514AB518000C98F5F /* ARM_operator_preview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARM_operator_preview-Info.plist"; sourceTree = "<group>"; };
 		F438BD0714AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F438BD0914AB518000C98F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F438BD0B14AB518000C98F5F /* ARM_operator_preview-Prefix.pch */ = {isa = PBXFileReference; path = "ARM_operator_preview-Prefix.pch"; sourceTree = "<group>"; };
-		F438BD0C14AB518000C98F5F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F438BD0B14AB518000C98F5F /* ARM_operator_preview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARM_operator_preview-Prefix.pch"; sourceTree = "<group>"; };
+		F438BD0C14AB518000C98F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F438BD0D14AB518000C98F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F438BD1014AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F438BD1314AB518000C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F438BD1614AB518000C98F5F /* ARM_operator_preview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARM_operator_preview.xcdatamodel; sourceTree = "<group>"; };
-		F438BD1814AB518000C98F5F /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		F438BD1814AB518000C98F5F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		F438BD1914AB518000C98F5F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		F438BD1B14AB518000C98F5F /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		F438BD1B14AB518000C98F5F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F438BD1C14AB518000C98F5F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F438BD2314AB518100C98F5F /* ARM_operator_previewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARM_operator_previewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F438BD2414AB518100C98F5F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F438BD2D14AB518100C98F5F /* ARM_operator_previewTests-Info.plist */ = {isa = PBXFileReference; path = "ARM_operator_previewTests-Info.plist"; sourceTree = "<group>"; };
+		F438BD2D14AB518100C98F5F /* ARM_operator_previewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARM_operator_previewTests-Info.plist"; sourceTree = "<group>"; };
 		F438BD2F14AB518100C98F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F438BD3114AB518100C98F5F /* ARM_operator_previewTests.h */ = {isa = PBXFileReference; path = ARM_operator_previewTests.h; sourceTree = "<group>"; };
+		F438BD3114AB518100C98F5F /* ARM_operator_previewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARM_operator_previewTests.h; sourceTree = "<group>"; };
 		F438BD3214AB518100C98F5F /* ARM_operator_previewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARM_operator_previewTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
